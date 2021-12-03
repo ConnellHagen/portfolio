@@ -1,2 +1,3 @@
-# new-portfolio
- Connell Hagen portfolio redesign (v2)
+# Portfolio
+
+This is a December 2021 redesign of my portfolio, updated with all of my most significant current projects.

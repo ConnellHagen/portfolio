@@ -1,0 +1,105 @@
+.text-box{
+    background-color: #333333;
+    padding: 2vh;
+    border-left: .5vw solid #323E83;
+    margin: 2vh 2vh 0 2vh;
+}
+.text-box p{
+    color: white;
+    font-size: 3vh;
+    font-family: 'Roboto Slab', serif;
+}
+.text-box p a{
+    color: #3F4EA3;
+}
+.picture{
+    border-left: .5vw solid #D6B96B;
+    max-height: 50vh;
+    max-width: calc(100% - 4vh);
+    margin: 2vh 2vh 0 2vh;
+}
+.text-picture-box{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 2vh 2vh 0 2vh;
+    padding: 0;
+}
+.project-display .text-picture-box{
+    margin: 0 0 2vh 0;
+}
+.project-display .text-picture-box .text-box{
+    width: 100%;
+}
+.text-picture-box .left{
+    float: left;
+    margin: 0 2vh 0 0;
+}
+.text-picture-box .right{
+    float: right;
+    margin: 0 0 0 2vh;
+}
+.text-picture-box .picture{
+    margin: 0;
+}
+.page-footer{
+    padding: 2vh;
+}
+.github-link{
+    color: white;
+    display: block;
+    font-size: 3vh;
+    font-family: 'Roboto Slab', serif;
+    padding: 2vh;
+    margin: 0;
+    width: 100%;
+    border-left: .5vw solid #B2D6AE;
+    background-color: #333333;
+    text-decoration: none;
+    text-shadow: 0 0 2vw #000000;
+}
+.github-link:hover{
+    background-color: #B2D6AE;
+    transition: .5s;
+}
+.p5js-link{
+    color: white;
+    display: block;
+    font-size: 3vh;
+    font-family: 'Roboto Slab', serif;
+    padding: 2vh;
+    margin: 0;
+    width: calc(100% - 4vh);
+    border-left: .5vw solid #ED225D;
+    background-color: #333333;
+    text-decoration: none;
+    text-shadow: 0 0 2vw #000000;  
+}
+.p5js-link:hover{
+    background-color:#ED225D;
+    transition: .5s;
+}
+.project-display{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 2vh 2vh 0 2vh;
+    padding: 1vh;
+    background-color: #2B2B2B;
+    box-shadow: 0 0 2vh black;
+}
+.project-links{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+}
+.project-title{
+    margin: 0 0 2vh 0;
+    padding: 2vh;
+    background-image: url("../images/title-background1.png");
+}
+.project-title h2{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 5vw;
+    text-shadow: 0 0 2vw #000000;
+}
