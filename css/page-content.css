@@ -79,6 +79,23 @@
     background-color:#ED225D;
     transition: .5s;
 }
+.web-preview-link{
+    color: white;
+    display: block;
+    font-size: 3vh;
+    font-family: 'Roboto Slab', serif;
+    padding: 2vh;
+    margin: 0;
+    width: calc(100% - 4vh);
+    border-left: .5vw solid #FF6C23;
+    background-color: #333333;
+    text-decoration: none;
+    text-shadow: 0 0 2vw #000000;  
+}
+.web-preview-link:hover{
+    background-color:#FF6C23;
+    transition: .5s;
+}
 .project-display{
     display: flex;
     flex-flow: column nowrap;
