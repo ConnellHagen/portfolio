@@ -41,7 +41,7 @@
                 <div class="text-box left">
                     <p>Remaking the board game chess was the first project I did that was actually large. It took a lot of time to be able to figure how to represent the board and pieces in a way that the computer could use. Then to be able to convert the rules of the game into mathematical instructions for the computer was very difficult, since things that humans just consider common sense need to be implemented. This project greatly improved my ability to conceptualize and abstract, as there were always a lot of different objects interacting with one another in all aspects of the code.</p>
                 </div>
-                <img src="../../images/chess-preview.png" class="picture">
+                <img src="../../images/javascript/chess-preview.png" class="picture">
             </div>
             <div class="project-links">
                 <a href="https://github.com/ConnellHagen/chess-remake" class="github-link">Github Page</a>
@@ -56,7 +56,7 @@
                 <h2>Matrix Operation Calculator</h2>
             </div>
             <div class="text-picture-box">
-                <img src="../../images/matrix-operations-preview.png" class="picture">
+                <img src="../../images/javascript/matrix-operations-preview.png" class="picture">
                 <div class="text-box right">
                     <p>For my Linear Algebra final for Fall 2021 we had a bit of a choice project, and so I wanted to use coding as a way to solve matrix operations. The very basic framework of laying out matrices was quite easy using 2D arrays, but complex operations like row reduction and finding the determinant were quite tricky. Creating the display and hooking it up to interact with the backend was also very tricky and my first time using js in an html website. In addition, some files would randomly stop working, and the whole program breaks when you remove a call for a nonexistent script so its definitely was a frustrating learning experience.</p>
                 </div>
@@ -76,12 +76,29 @@
                 <div class="text-box left">
                     <p>This was a school project where we were required to make a game. I wanted to remake Snake since it is simple and abstract, yet somewhat complicated to figure out an efficient way to program it. It was also an experiment with creating games that have more to them than just bare bones frameworks. I am still working on making this more unique and interesting in that manner. This also used the Button Class that I wrote for the Matrix Operation Calculator.</p>
                 </div>
-                <img src="../../images/snake-game-preview.png" class="picture">
+                <img src="../../images/javascript/snake-game-preview.png" class="picture">
             </div>
             <div class="project-links">
                 <a href="https://github.com/ConnellHagen/snake-game" class="github-link">Github Page</a>
                 <a href="https://editor.p5js.org/786697/sketches/H3wyjjo66" class="p5js-link">p5.js Page</a>
                 <a href="https://connellhagen.github.io/snake-game/" class="web-preview-link">Web Preview</a>
+            </div>
+        </div>
+
+        <!--Abstract Clock-->
+        <div class="project-display">
+            <div class="project-title">
+                <h2>Abstract Clock</h2>
+            </div>
+            <div class="text-picture-box">
+                <img src="../../images/javascript/abstract-clock-preview.png" class="picture">
+                <div class="text-box right">
+                    <p>This project was assigned as a practice for taking data and displaying it however we like. The data in particular to display here was time data, so we made "abstract clocks". For my clock, I wanted there to be very simple bars that move across the screen as time passes. I had trouble trying to make the seconds bar move slowly however, since p5js's time API only allows accuracy to the second, and the milliseconds function is not very useful for the purposes I needed it for. I also used this project to practice stretching a p5js canvas to the screen size, and adjusting it as the window size is adjusted.</p>
+                </div>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/ConnellHagen/abstract-clock" class="github-link">Github Page</a>
+                <a href="https://connellhagen.github.io/abstract-clock/" class="web-preview-link">Web Preview</a>
             </div>
         </div>
 
@@ -91,10 +108,10 @@
                 <h2>Dice Game</h2>
             </div>
             <div class="text-picture-box">
-                <img src="../../images/dice-game-preview.png" class="picture">
-                <div class="text-box right">
+                <div class="text-box left">
                     <p>For this project, we were required to do something involving dice. Considering that I wanted to try to make roulette last year but didn't get the time to, I thought it would be fun to make a betting game. This project actually went extremely smoothly, especially at the beginning when I laid out lots of abstract work to make the rest simple. Laying out GUI, designing all of the visuals and making the dice were all things that helped me improve on my visual designing skills. The values for returns in this game are very broken however and if you know the strategy can easily be exploited to make lots of money quickly. This also was my first time making a Button Class and would contain the main ideas for my go-to p5.js Button Class I would later code.</p>
                 </div>
+                <img src="../../images/javascript/dice-game-preview.png" class="picture">
             </div>
             <div class="project-links">
                 <a href="https://github.com/ConnellHagen/dice-game" class="github-link">Github Page</a>
@@ -109,87 +126,15 @@
                 <h2>Holiday Card 2021</h2>
             </div>
             <div class="text-picture-box">
-                <div class="text-box left">
+                <img src="../../images/javascript/holiday-card-2021-preview.png" class="picture">
+                <div class="text-box right">
                     <p>This was our last project of the first trimester of Advanced Computer Science, and it was also our first group project. We had been working with the p5.js javascript library for a long time already, so the most notable takeaway from this project was the ability to compartmentalize code into seperate sections, and to work together in a group. We also did a couple new-er things in the code for practice, like using lambda functions and using cosine (for making the snow fall).</p>
                 </div>
-                <img src="../../images/holiday-card-2021-preview.png" class="picture">
             </div>
             <div class="project-links">
                 <a href="https://github.com/ConnellHagen/holiday-card-2021" class="github-link">Github Page</a>
                 <a href="https://connellhagen.github.io/holiday-card-2021/" class="web-preview-link">Web Preview</a>
             </div>
-        </div>
-
-        <!--Firefly Chemotaxis-->
-        <div class="project-display">
-            <div class="project-title">
-                <h2>Firefly Chemotaxis</h2>
-            </div>
-            <div class="text-picture-box">
-                <img src="../../images/firefly-chemotaxis-preview.png" class="picture">
-                <div class="text-box right">
-                    <p>I used fireflies as a way to demonstrate chemotaxis, which is a natural process of diffusion where random movements following a general pattern eventually reach an end state. The fireflies themselves light up like in real life, and I made sure to desync them so it doesn't look weird. The fireflies also follow the mouse which was tough to code in a realistic way, as all of the fireflies moving in the exact same way together looks very unnatural. Another problem was that once all of the fireflies crowded around the mouse, they wouldn't move away. I fixed this by making fireflies have a small chance of moving very far away at once, and by making them move at different speeds when following the mouse.</p>
-                </div>
-            </div>
-            <div class="project-links">
-                <a href="https://github.com/ConnellHagen/firefly-chemotaxis" class="github-link">Github Page</a>
-                <a href="https://editor.p5js.org/786697/sketches/4H_gmrJaI" class="p5js-link">p5.js Page</a>
-                <a href="https://connellhagen.github.io/firefly-chemotaxis/" class="web-preview-link">Web Preview</a>
-            </div>
-        </div>
-
-        <!--Fall Scene-->
-        <div class="project-display">
-            <div class="project-title">
-                <h2>Fall Sunset</h2>
-            </div>
-            <div class="text-picture-box">
-                <div class="text-box left">
-                    <p>This was an experiment with using scalar variables to control all aspects of the canvas, as well as using functions to handle most operations in a program. I usually do everything with classes, so trying to use functions was very challenging. Eventually I had to resort to making a few classes, as I could not figure out how else to manage the leaves and trees, but the initial struggle did make me think differently about how to use functions better.</p>
-                </div>
-                <img src="../../images/fall-sunset-preview.png" class="picture">
-            </div>
-            <div class="project-links">
-                <a href="https://github.com/ConnellHagen/fall-sunset" class="github-link">Github Page</a>
-                <a href="https://editor.p5js.org/786697/sketches/nybMZQAPZ" class="p5js-link">p5.js Page</a>
-                <a href="https://connellhagen.github.io/fall-sunset/" class="web-preview-link">Web Preview</a>
-            </div>
-        </div>
-
-        <!--Catch Game-->
-        <div class="project-display">
-            <div class="project-title">
-                <h2>Catch Game</h2>
-            </div>
-            <div class="text-picture-box">
-                <img src="../../images/catch-game-preview.png" class="picture">
-                <div class="text-box right">
-                    <p>This was my final project for AP Computer Science in 2021. For this project I used fonts for the first time, used buttons that changed color upon press, used arrays of objects (to make the raindrops) and more that was new at the time. This was also my first experience with making 'scenes' in a project, as I had to make the start and end menu. The biggest challenge for me was to figure out how to determine when a raindrop had actually fallen into the bucket.</p>
-                </div>
-            </div>
-            <div class="project-links">
-                <a href="https://github.com/ConnellHagen/catch-game" class="github-link">Github Page</a>
-                <a href="https://editor.p5js.org/786697/sketches/Qw7kCQZea" class="p5js-link">p5.js Page</a>
-                <a href="https://connellhagen.github.io/catch-game/" class="web-preview-link">Web Preview</a>
-            </div>
-        </div>
-
-        <!--Ball Factory-->
-        <div class="project-display">
-            <div class="project-title">
-                <h2>Ball Factory</h2>
-            </div>
-            <div class="text-picture-box">
-                <div class="text-box left">
-                    <p>My first actual project ever. This project caused me to have to think about things in abstract ways and figure out how to compartmentalize things that would be repeated often. While parts like the buttons are somewhat messy in the code, they were my first attempt at doing anything of the sort. The gameplay is not super exciting, and is very unbalanced, however it does work and executed the concepts of faux movement and positive feedback loops well. My projects got much better quickly from here, but this one was ultimately my first massive learning experience project, followed by remaking chess as my second, and making the matrix calculator as my third.</p>
-                </div>
-                <img src="../../images/ball-factory-preview.png" class="picture">
-            </div>
-            <div class="project-links">
-                <a href="https://github.com/ConnellHagen/ball-factory" class="github-link">Github Page</a>
-                <a href="https://editor.p5js.org/786697/sketches/GTLosu8l6" class="p5js-link">p5.js Page</a>
-                <a href="https://connellhagen.github.io/ball-factory/" class="web-preview-link">Web Preview</a>
-            </div> 
         </div>
 
     <div class="page-footer"></div>
